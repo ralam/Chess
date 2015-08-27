@@ -9,7 +9,7 @@ class Chess
   def initialize
     @board = MasterBoard.new
     @colors = [:B, :W]
-    @players = {:B => ComputerPlayer.new(:B), :W => Player.new }
+    @players = {B: ComputerPlayer.new(:B), W: Player.new }
   end
 
   def start
@@ -30,9 +30,9 @@ class Chess
     end
     @board.render(@colors.last)
     if checkmate?
-      puts "FINISHED. #{@colors.last} is in checkmate and lost the game."
+      puts "GAME OVER. #{@colors.last} is in checkmate and lost the game."
     else
-      puts "FINISHED. It is #{@colors.last}'s turn and the game is a stalemate"
+      puts "GAME OVER. It is #{@colors.last}'s turn and the game is a stalemate"
     end
   end
 
