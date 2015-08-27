@@ -10,7 +10,6 @@ class Chess
     @board = MasterBoard.new
     @colors = [:B, :W]
     @players = {:B => ComputerPlayer.new(:B), :W => Player.new }
-    #@players = {:B => ComputerPlayer.new(:B), :W => Player.new }
   end
 
   def start
