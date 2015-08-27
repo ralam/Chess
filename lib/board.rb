@@ -1,6 +1,6 @@
 require "colorize"
 require 'byebug'
-require_relative 'allpiece'
+require_relative 'pieces/all_pieces'
 
 class Board
   attr_accessor :rows

@@ -1,4 +1,4 @@
-require_relative 'allpiece'
+require_relative 'pieces/all_pieces'
 
 class ComputerPlayer
   attr_reader :sequence_of_commands
