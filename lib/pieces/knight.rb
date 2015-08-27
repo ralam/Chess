@@ -11,7 +11,7 @@ class Knight < SteppingPiece
   end
 
   def render
-    @color == :W ? " \u2658 ".encode('utf-8') : " \u265E ".encode('utf-8')
+    @color == :W ? " \u265E ".encode('utf-8') : " \u2658 ".encode('utf-8')
   end
 
   def dup(new_board)

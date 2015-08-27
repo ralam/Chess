@@ -41,7 +41,7 @@ class Pawn < SteppingPiece
   end
 
   def render
-    @color == :W ? " \u2659 ".encode('utf-8') : " \u265F ".encode('utf-8')
+    @color == :W ? " \u265F ".encode('utf-8') : " \u2659 ".encode('utf-8')
   end
 
   def dup(new_board)

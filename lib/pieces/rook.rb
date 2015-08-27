@@ -11,7 +11,7 @@ class Rook < SlidingPiece
   end
 
   def render
-    @color == :W ? " \u2656 ".encode('utf-8') : " \u265C ".encode('utf-8')
+    @color == :W ? " \u265C ".encode('utf-8') : " \u2656 ".encode('utf-8')
   end
 
   def dup(new_board)

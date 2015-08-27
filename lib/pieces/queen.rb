@@ -11,7 +11,7 @@ class Queen < SlidingPiece
   end
 
   def render
-    @color == :W ? " \u2655 ".encode('utf-8') : " \u265B ".encode('utf-8')
+    @color == :W ? " \u265B ".encode('utf-8') : " \u2655 ".encode('utf-8')
   end
 
   def dup(new_board)

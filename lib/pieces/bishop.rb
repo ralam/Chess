@@ -11,7 +11,7 @@ class Bishop < SlidingPiece
   end
 
   def render
-    @color == :W ? " \u2657 ".encode('utf-8') : " \u265D ".encode('utf-8')
+    @color == :W ? " \u265D ".encode('utf-8') : " \u2657 ".encode('utf-8')
   end
 
   def dup(new_board)
