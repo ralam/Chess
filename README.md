@@ -8,6 +8,6 @@ run bundle install. Then open up your favorite Ruby interpreter, and run
 ```load "lib/chess.rb" ```. There is no save game included in the repo, so when
 asked to load from file, press "n", and start playing!
 
-![](https://github.com/ralam/Chess/images/assets/chess-ss.jpg)
+![](https://github.com/ralam/Chess/blob/master/assets/images/chess-ss.jpg)
 
 [colorize-link]: https://github.com/fazibear/colorize
